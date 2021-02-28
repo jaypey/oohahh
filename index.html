@@ -3,18 +3,21 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Fermit the Krog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <script src="main.js"></script>
 </head>
 <body bgcolor="#101011">
     <div>
-        <img id="legif" src="gifs/kermit1.gif" alt="This is my animated image" height="900" width="1000">
+        <img id="legif" src="gifs/kermit1.gif" alt="This is my animated image">
     </div>
-    <audio controls autoplay loop>
+    <audio id="audio" controls loop>
         <source src="music/horse.mp3" type="audio/mp3">
           Your browser does not support the audio element.
-    </audio> 
+        </audio>
+    <div id="buttonplay" class="button_container">
+        <button onclick="play()" class="btn"><span>KERMIT!</span></button>
+    </div>
 </body>
 </html>
